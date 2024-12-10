@@ -12,7 +12,7 @@ else:
 valor_aumento = salario_atual * (percentual_aumento / 100)
 novo_salario = salario_atual + valor_aumento
 
-inflacao = 3
+inflacao = 3.8
 valor_inflacao = novo_salario * (inflacao / 100)
 aumento_real = valor_aumento - valor_inflacao
 
